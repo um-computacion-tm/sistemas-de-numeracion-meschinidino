@@ -1,0 +1,12 @@
+def decimal_to_binary(num):
+    return binary
+def binary_to_decimal(num):
+    return decimal
+def decimal_to_octal(num):
+    return octal
+def octal_to_decimal(num):
+    return decimal
+def decimal_to_hex(num):
+    return hex
+def hex_to_decimal(num):
+    return decimal
