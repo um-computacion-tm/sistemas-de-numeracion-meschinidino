@@ -22,5 +22,6 @@ class MyTest(unittest.TestCase):
     def test_seis(self):
         self.assertEqual(binary_to_decimal(10000), 16)
 
+
 if __name__ == "__main__":
     unittest.main()
