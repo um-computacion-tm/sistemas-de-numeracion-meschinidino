@@ -1,10 +1,13 @@
 def decimal_to_binary(num):
-    binary = ""
-    while num != 1:
-        binary = str(num % 2) + binary[:]
-        num = int(num / 2)
-    binary = "1" + binary
-    return int(binary)
+    cociente = num
+    binario = ""
+    if num == 0:
+        return 0
+    while cociente > 0:
+        resto = cociente % 2
+        cociente //= 2
+        binario = str(resto) + binario
+    return int(binario)
 
 
 def binary_to_decimal(num):
